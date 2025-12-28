@@ -1,0 +1,78 @@
+/* ===== General ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background-color: #1f4f66;
+    padding: 15px 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Page Content ===== */
+section {
+    padding: 30px;
+}
+
+h1 {
+    color: #1f4f66;
+}
+
+h2 {
+    color: #2e6f95;
+}
+
+/* ===== Button ===== */
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #1f4f66;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #163a4d;
+}
+
+/* ===== Footer ===== */
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===== Responsive (Mobile Friendly) ===== */
+@media (max-width: 600px) {
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
