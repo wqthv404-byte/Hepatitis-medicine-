@@ -76,3 +76,11 @@ footer {
         padding: 20px;
     }
 }
+/* Disclaimer Box */
+.disclaimer {
+    background-color: #f4f8fa;
+    border-left: 4px solid #1f4f66;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
