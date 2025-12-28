@@ -167,3 +167,33 @@ footer {
     nav a { display: block; margin: 10px 0; }
     section { padding: 20px; }
 }
+/* General contact text */
+.contact-text {
+    font-size: 18px;        /* Default size */
+    line-height: 1.6;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+}
+
+/* Headings */
+.contact-text h1, .contact-text h2, .contact-text h3 {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .contact-text {
+        font-size: 16px;    /* Thoda chhota on mobile */
+        line-height: 1.5;
+    }
+
+    .contact-text h1 {
+        font-size: 22px;   /* Headings thodi badi rakhni */
+    }
+
+    .contact-text h2 {
+        font-size: 20px;
+    }
+}
