@@ -84,3 +84,10 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* optional, smooth corners */
+}
