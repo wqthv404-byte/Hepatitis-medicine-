@@ -91,3 +91,8 @@ img {
     height: auto;
     border-radius: 10px; /* optional, smooth corners */
 }
+.button:hover {
+    background-color: #163a4d;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
