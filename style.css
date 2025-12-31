@@ -197,3 +197,46 @@ footer {
         font-size: 20px;
     }
 }
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 15px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+/* Side Menu */
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+.side-menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+}
+
+.side-menu a:hover {
+  background-color: #333;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 35px;
+}
