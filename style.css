@@ -10,14 +10,14 @@ body {
 /* ===== Navigation Bar ===== */
 nav {
     background-color: #1f4f66;
-    padding: 15px 20px;
+    padding: 20px 30px;
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 nav a:hover {
@@ -26,7 +26,7 @@ nav a:hover {
 
 /* ===== Page Content ===== */
 section {
-    padding: 30px;
+    padding: 35px;
 }
 
 h1 {
@@ -40,12 +40,12 @@ h2 {
 /* ===== Button ===== */
 .button {
     display: inline-block;
-    margin-top: 15px;
-    padding: 12px 20px;
+    margin-top: 20px;
+    padding: 15px 25px;
     background-color: #1f4f66;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .button:hover {
@@ -56,7 +56,7 @@ h2 {
 footer {
     padding: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     color: #666;
 }
 
@@ -224,7 +224,7 @@ footer {
 .side-menu a {
   padding: 10px 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
   display: block;
 }
@@ -273,11 +273,11 @@ footer {
 }
 
 .icon-box h3 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #333;
 }
 
 .icon-box p {
-  font-size: 14px;
+  font-size: 15px;
   color: #555;
 }
